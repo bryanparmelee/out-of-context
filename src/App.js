@@ -12,7 +12,7 @@ function App() {
     return CONTEXT_DATA[Math.floor(Math.random() * CONTEXT_DATA.length)];
   }
 
-  const random = Math.floor(Math.random() * 10);
+  const random = Math.floor(Math.random() * backgrounds.length);
 
 
   useEffect(() => {
