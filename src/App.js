@@ -32,7 +32,7 @@ function App() {
         className="absolute bottom-20 border-2 p-4 rounded-xl text-white shadow-lg hover:bg-white hover:text-black"
         onClick={newQuote}
       >
-        Show Me Another
+        Out of Context
       </button>
     </div>
   );
