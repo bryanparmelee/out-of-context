@@ -26,14 +26,16 @@ function App() {
   }
   
   return (
-    <div className={`h-screen w-screen p-8 ${background} bg-no-repeat object-cover flex flex-col items-center justify-center relative`}>
-      <Quote randomQuote={quote} />
-      <button 
-        className="absolute bottom-20 border-2 p-4 rounded-xl text-white shadow-lg hover:bg-white hover:text-black"
-        onClick={newQuote}
-      >
-        Out of Context
-      </button>
+    <div className={`h-screen w-screen ${background} object-cover bg-cover bg-center`}>
+      <div className="h-screen w-screen bg-black/20 flex flex-col items-center justify-center relative sm:p-8 p-16">
+        <Quote randomQuote={quote} />
+        <button 
+          className="absolute bottom-20 w-60 p-4 rounded-3xl text-black bg-white shadow-lg hover:bg-black hover:border-2 hover:text-white"
+          onClick={newQuote}
+        >
+          Out of Context
+        </button>
+      </div>
     </div>
   );
 }
