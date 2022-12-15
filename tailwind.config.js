@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       keyframes: {
         'fade-in': {
-          '0%, 75%': { 
+          '0%, 25%': { 
             opacity: '0',
             transform: 'translateY(-5px)'
            },
