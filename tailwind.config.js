@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       keyframes: {
         'fade-in': {
-          '0%': { 
+          '0%, 75%': { 
             opacity: '0',
             transform: 'translateY(-5px)'
            },
@@ -29,8 +29,8 @@ module.exports = {
         }
       }, 
       animation: {
-        'quote-fade': 'fade-in 1s ease-in',
-        'author-fade': 'fade-left 1.2s ease-in'
+        'quote-fade': 'fade-in 2s ease-in',
+        'author-fade': 'fade-left 2.2s ease-in'
       }
     },
     fontFamily: {
