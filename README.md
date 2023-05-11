@@ -8,10 +8,10 @@ Out of context is a random quote generator that juxtaposes inspiring galactic ba
 
 ## Features
 
-    - Refresh the page or click the "Out of Context" button to generate a new background and quote.
-    - Features subtle animations for maximum quote impact.
+- Refresh the page or click the "Out of Context" button to generate a new background and quote.
+- Features subtle animations for maximum quote impact.
 
 ## Technologies Used:
 
-    - React
-    - Tailwind CSS
+- React
+- Tailwind CSS
