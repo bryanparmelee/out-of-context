@@ -4,7 +4,7 @@
 
 ### [See it live!](https://outofcontext.space/)
 
-Out of context is a random quote generator that juxtaposes inspiring galactic backgrounds with humerous quotes from a client's Slack channel.
+Out of context is a random quote generator that juxtaposes inspiring galactic backgrounds with humorous quotes from a client's Slack channel.
 
 ## Features
 
